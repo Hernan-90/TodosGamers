@@ -3,8 +3,8 @@
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 
-const delay = () => {
-  setTimeout(500)
+const delay = async () => {
+  setTimeout(() =>{}, 500)
 }
 
 export const Arrow = () => {
