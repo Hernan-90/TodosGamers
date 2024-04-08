@@ -5,7 +5,14 @@ import Location from "../assets/icons/Location.svg";
 import Phone from "../assets/icons/Phone.svg";
 import Brewery from "../assets/images/Brewery.jpg";
 
-export const Card = ({ id, name, address_1, phone }) => {
+interface Props {
+  id: string;
+  name: string;
+  address_1: string;
+  phone: string;
+}
+
+export const Card = ({ id, name, address_1, phone }: Props) => {
 
   return (
     <div className='card__container'>
