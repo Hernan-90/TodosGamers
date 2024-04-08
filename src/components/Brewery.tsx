@@ -7,7 +7,6 @@ import Link from 'next/link';
 import { Carrousel, Reviews } from '@/components/index';
 import { useAppDispatch, useAppSelector } from '@/store';
 
-
 interface Brewery {
   name: string;
   address_1: string;
@@ -15,7 +14,7 @@ interface Brewery {
 }
 
 interface Props {
-  brewery: Array<Brewery>
+  brewery: Brewery
 }
 
 export const Brewery = ({ brewery }: Props) => {
@@ -30,11 +29,11 @@ export const Brewery = ({ brewery }: Props) => {
       <div>
         <div className='card__content-item'>
           <Image src={ Location } alt='Ubicacion' className='card__content-icon'/>
-          <p>{ address_1 }</p>
+          <p>{ address_1 ? address_1 : 'No tiene' }</p>
         </div>
         <div className='card__content-item'>
           <Image src={ Phone } alt='Telefono' className='card__content-icon'/>
-          <p>{ phone }</p>
+          <p>{ phone ? phone : 'No tiene' }</p>
         </div>
       </div>
 
