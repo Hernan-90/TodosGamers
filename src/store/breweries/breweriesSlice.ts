@@ -1,15 +1,15 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit'
 import Brewery from "../../assets/images/Brewery.jpg";
-import Carrousel1 from "../../assets/images/Carrousel1.jpg";
-import Carrousel2 from "../../assets/images/Carrousel2.jpg";
-import Carrousel3 from "../../assets/images/Carrousel3.jpg";
-import Carrousel4 from "../../assets/images/Carrousel4.jpg";
-import Avatar1 from "../../assets/images/Avatar1.jpg";
-import Avatar2 from "../../assets/images/Avatar2.jpg";
-import Avatar3 from "../../assets/images/Avatar3.jpg";
-import Avatar4 from "../../assets/images/Avatar4.jpg";
-import Avatar5 from "../../assets/images/Avatar5.jpg";
-import Avatar6 from "../../assets/images/Avatar6.jpg";
+import Carrousel1 from "../../assets/images/Carrousel1.webp";
+import Carrousel2 from "../../assets/images/Carrousel2.webp";
+import Carrousel3 from "../../assets/images/Carrousel3.webp";
+import Carrousel4 from "../../assets/images/Carrousel4.webp";
+import Avatar1 from "../../assets/images/Avatar1.webp";
+import Avatar2 from "../../assets/images/Avatar2.webp";
+import Avatar3 from "../../assets/images/Avatar3.webp";
+import Avatar4 from "../../assets/images/Avatar4.webp";
+import Avatar5 from "../../assets/images/Avatar5.webp";
+import Avatar6 from "../../assets/images/Avatar6.webp";
 
 interface BreweriesState {
   userLocation: string;
