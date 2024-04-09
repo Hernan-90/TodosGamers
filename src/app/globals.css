@@ -496,3 +496,9 @@ body {
     transform: rotate(360deg);
   }
 } 
+
+@media (max-width: 21.5em) {
+  html {
+    font-size: 56.25%;
+  }
+}
