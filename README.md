@@ -12,10 +12,10 @@ Welcome to TodosGamers, a project developed using React and Next.js as part of a
 
 ## Usage
 
-1.Clone the repository to your local machine: git clone https://github.com/Hernan-90/TodosGamersChallenge.git
+1. Clone the repository to your local machine: git clone https://github.com/Hernan-90/TodosGamersChallenge.git
 
-2.Move into the folder TodosGamersChallenge: cd TodosGamersChallenge
+2. Move into the folder TodosGamersChallenge: cd TodosGamersChallenge
 
-3.Create node_modules folder and install project dependencies: npm install or yarn 
+3. Create node_modules folder and install project dependencies: npm install or yarn 
 
-4.Start the development server to run the project locally: npm run dev
+4. Start the development server to run the project locally: npm run dev
