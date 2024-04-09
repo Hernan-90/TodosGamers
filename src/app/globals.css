@@ -214,11 +214,6 @@ body {
 
 .menu__icon.open ~ .menu__background {
   height: 1px;
-  transform: scaleY(1530);
-}
-
-.menu__icon.open ~ .menu__background {
-  height: 1px;
   transform: scaleY(1350);
 }
 
