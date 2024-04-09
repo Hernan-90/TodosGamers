@@ -1,5 +1,5 @@
 import { breweriesApi } from "@/api/breweriesApi";
-import { Brewery } from "@/components/Brewery";
+import { Brewery } from "@/components/Breweries/Brewery";
 
 interface Props {
   params: { id:string }

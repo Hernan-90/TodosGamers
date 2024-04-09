@@ -358,6 +358,11 @@ body {
   font-size: 1.4rem;
 }
 
+.phone {
+  width: 2rem;
+  height: 2rem;
+}
+
 .brewery__container {
   display: flex;
   flex-direction: column;
@@ -448,21 +453,19 @@ body {
   align-items: center;
 }
 
-/* .footer__container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: var(--background-color);
-} */
-
 .footer__item {
   flex-direction: column;
   width: 12rem;
   height: 5.6rem;
+  transition: background-color .3s;
 }
 
 .footer__item-text {
   font-size: 1.2rem;
+}
+
+.footer__item.active {
+  background-color: var(--btn-primary-color);
 }
 
 /* LOADER */

@@ -1,11 +1,9 @@
 'use client'
 
-import Image from 'next/image'
-import Location from "../assets/icons/Location.svg";
-import Phone from "../assets/icons/Phone.svg";
 import Link from 'next/link';
 import { Carrousel, Reviews } from '@/components/index';
-import { useAppDispatch, useAppSelector } from '@/store';
+import { useAppSelector } from '@/store';
+import { Data } from './Data';
 
 interface Brewery {
   name: string;
@@ -25,18 +23,8 @@ export const Brewery = ({ brewery }: Props) => {
   return (
     <div className='brewery__container'>
       <h1 className='brewery__title'>{ name }</h1>
-      
-      <div>
-        <div className='card__content-item'>
-          <Image src={ Location } alt='Ubicacion' className='card__content-icon'/>
-          <p>{ address_1 ? address_1 : 'No tiene' }</p>
-        </div>
-        <div className='card__content-item'>
-          <Image src={ Phone } alt='Telefono' className='card__content-icon'/>
-          <p>{ phone ? phone : 'No tiene' }</p>
-        </div>
-      </div>
 
+      <Data address={ address_1 } phone={ phone }/>
       <Carrousel photos={ photos }/>
       <Reviews reviews={ userReviews }/>
 

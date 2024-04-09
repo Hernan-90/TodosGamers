@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
-import Bell from '../../assets/icons/Bell.svg'
-import User from '../../assets/icons/User.svg'
+import Bell from '../../../assets/icons/Bell.svg'
+import User from '../../../assets/icons/User.svg'
 import { Menu } from './Menu'
 
 export const Header = () => {

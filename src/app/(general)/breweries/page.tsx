@@ -1,5 +1,5 @@
 import { breweriesApi } from "@/api/breweriesApi";
-import { Breweries } from "@/components/Breweries";
+import { Breweries } from "@/components/Breweries/Breweries";
 import { Spinner } from "@/components/shared/Spinner";
 import { Suspense } from "react";
 
